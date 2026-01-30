@@ -16,11 +16,10 @@ const Newsletter = () => {
         <section>
     <h2>Laisser un message</h2>
         <form onSubmit={handleSubmit} className="message-form">
-          <textarea
+          <input
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Votre message ici..."
-            rows={4}
             className="message-input"
           />
           <button type="submit" className="btn-submit">

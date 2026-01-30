@@ -3,7 +3,6 @@ const Fiche = (props) => {
     const { img, nom, prenoms, genre, filiere } = props;
     return (
         <section>
-            <h2>Fiche etudiant</h2>
             <h4 >Nom: {nom}</h4>
             <h4>Prénoms : {prenoms}</h4>
             <h4>Genre : {genre}</h4>
